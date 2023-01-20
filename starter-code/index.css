@@ -353,14 +353,14 @@ select {
     top: 2rem;
     background: transparent;
     border: 0;
-    background-image: url("./starter-code/assets/shared/icon-hamburger.svg");
+    background-image: url("./assets/shared/icon-hamburger.svg");
     background-size: cover;
     background-position: center;
     width: 1.5rem;
     aspect-ratio: 1;
   }
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url("./starter-code/assets/shared/icon-close.svg");
+    background-image: url("./assets/shared/icon-close.svg");
   }
   .mobile-nav-toggle:focus-visible {
     outline: 3px solid blueviolet;
@@ -460,38 +460,38 @@ body {
 }
 
 .home {
-  background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+  background-image: url("./assets/home/background-home-mobile.jpg");
 }
 .destination {
-  background-image: url("/starter-code/assets/destination/background-destination-mobile.jpg");
+  background-image: url("./assets/destination/background-destination-mobile.jpg");
 }
 .crew {
-  background-image: url("/starter-code/assets/crew/background-crew-mobile.jpg");
+  background-image: url("./assets/crew/background-crew-mobile.jpg");
 }
 @media (min-width: 35rem) {
   .home {
-    background-image: url(./starter-code/assets/home/background-home-tablet.jpg);
+    background-image: url("./assets/home/background-home-tablet.jpg");
     background-position: center center;
   }
   .destination {
-    background-image: url("/starter-code/assets/destination/background-destination-tablet.jpg");
+    background-image: url("./assets/destination/background-destination-tablet.jpg");
     background-position: center center;
   }
   .crew {
-    background-image: url("/starter-code/assets/crew/background-crew-tablet.jpg");
+    background-image: url("./assets/crew/background-crew-tablet.jpg");
     background-position: center center;
   }
 }
 
 @media (min-width: 45rem) {
   .home {
-    background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
+    background-image: url(./assets/home/background-home-desktop.jpg);
   }
   .destination {
-    background-image: url("/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
   }
   .crew {
-    background-image: url("./starter-code/assets/crew/background-crew-desktop.jpg");
+    background-image: url("./assets/crew/background-crew-desktop.jpg");
   }
 }
 
